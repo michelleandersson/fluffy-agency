@@ -282,3 +282,31 @@ body {
     width: 52px;
     height: 66px;
 }
+
+.relax {
+    background-color: #fff;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.relax__content {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 135px;
+}
+
+.relax__title {
+    color: #13253A;
+    font-size: 38px;
+    max-width: 360px;
+    width: 100%;
+    height: 104px;
+    font-weight: bold;
+}
