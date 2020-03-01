@@ -244,10 +244,41 @@ body {
 }
 
 .about-us__text--right {
-    max-width: 370px;
+    max-width: 570px;
     width: 100%;
     height: 270px;
     font-size: 16px;
     font-weight: 400;
     color: #13253A;
+}
+
+.about-us__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us__hello-fresh {
+    width: 66px;
+    height: 66px;
+}
+
+.about-us__trivago {
+    width: 126px;
+    height: 38px;
+}
+
+.about-us__la-times {
+   width: 271px;
+   height: 34px; 
+}
+
+.about-us__oracle {
+    width: 162px;
+    height: 23px;
+}
+
+.about-us__target {
+    width: 52px;
+    height: 66px;
 }
