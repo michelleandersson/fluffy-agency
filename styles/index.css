@@ -339,3 +339,48 @@ body {
     position: absolute;
     left: 550px;
 }
+
+.start-building {
+    width: 100%;
+    height: 434px;
+    background-color: #FF7F57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-building__content {
+    max-width: 800px;
+    width: 100%;
+    height: 152px;
+    color: #fff;
+    text-align: center;
+}
+
+.start-building__title--small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.start-building__title--large {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.start-building__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.start-building__button {
+    max-width: 336px;
+    width: 100%;
+    height: 60px;
+    background-color: #2557AB;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.459);
+    margin-top: 20px;
+}
