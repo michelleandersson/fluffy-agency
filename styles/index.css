@@ -392,11 +392,11 @@ body {
 .start-building {
     width: 100%;
     height: 434px;
-    
     background-color: #FF7F57;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .start-building__content {
@@ -449,6 +449,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .contact-us__title {
@@ -465,6 +466,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .contact-us__label {
@@ -534,6 +536,7 @@ textarea:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer__text {
