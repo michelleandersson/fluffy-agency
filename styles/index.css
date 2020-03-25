@@ -186,7 +186,7 @@ body {
 
 .kpi {
     width: 100%;
-    height: 205px;
+    padding-bottom: 50px;
     background-color: #F4F6F7;
 }
 
@@ -194,6 +194,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .kpi__info {
