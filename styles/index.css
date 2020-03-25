@@ -1,27 +1,23 @@
 body {
     font-family: 'Nunito';
-    background-color: #F4F6F7 
+    background-color: #F4F6F7; 
 }    
 
 .header {
-    max-width: 1170px;
     width: 100%;
-    height: 100vh;
     background-color: #F4F6F7;
-    margin-top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    
+    overflow-x: hidden;  
 }
 
 .header__nav-bar {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 20px;
+    width: 90%;
+    margin-top: 20px;
+    padding: 0 10px;
     display: inline-flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -41,11 +37,11 @@ body {
 
 .header__nav-link {
     list-style: none;
-    margin-right: 50px;    
+    padding-right: 50px;    
 }
 
 .header__nav-link:last-of-type {
-    margin-right: 50px;
+    padding-right: 50px;
 }
 
 .header__nav-link>a {
@@ -62,9 +58,8 @@ body {
 }
 
 .header__content {
-    margin-top: 100px;
-    max-width: 1170px;
-    width: 100%;
+    margin-top: 50px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +69,8 @@ body {
 .header__info {
     max-width: 470px;
     width: 100%;
-    height: 261px;
+    box-sizing: border-box;
+    margin: 0 10px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -108,6 +104,7 @@ body {
     max-width: 336px;
     width: 100%;
     height: 60px;
+    margin-bottom: 50px;
     background-color: #FF7F57;
     color: #fff;
     font-size: 17px;
@@ -122,9 +119,14 @@ body {
     text-decoration: underline;
 }
 
+.main {
+    overflow-x: hidden;
+}
+
 
 .header__img {
     max-width: 568px;  
+    margin-right: 10px;
 }
 
 .our-services {
@@ -291,8 +293,7 @@ body {
 }
 
 .about-us__logos {
-    max-width: 1170px;
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
     padding: 0 10px;
     display: flex;
@@ -343,7 +344,6 @@ body {
 .relax__content {
     max-width: 1170px;
     width: 100%;
-    height: 450px;
     margin: 50px 10px;
     display: flex;
     justify-content: space-between;
@@ -406,7 +406,6 @@ body {
 .start-building__content {
     max-width: 800px;
     width: 100%;
-    height: 152px;
     margin: 0 10px;
     color: #fff;
     text-align: center;
@@ -547,4 +546,23 @@ textarea:hover {
     font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 569px) {
+    .relax__title {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .relax__title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .contact-us__form {
+        max-width: 310px;
+        width: 100%;
+    }
 }
