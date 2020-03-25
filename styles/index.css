@@ -233,7 +233,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .about-us__content {
@@ -557,6 +556,9 @@ textarea:hover {
 @media screen and (max-width: 455px) {
     .relax__title {
         font-size: 25px;
+    }
+    .header__nav-link {
+        margin-top: 20px;
     }
 }
 
