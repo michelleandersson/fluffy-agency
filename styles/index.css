@@ -238,7 +238,7 @@ body {
 .about-us__content {
     max-width: 970px;
     width: 100%;
-    height: 500px;
+    padding-bottom: 50px;
     
 }
 
@@ -260,7 +260,9 @@ body {
     display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-bottom: 50px;
     margin-top: 14px;
+    padding: 0 10px;
 
 }
 
@@ -290,32 +292,42 @@ body {
 }
 
 .about-us__logos {
+    max-width: 1170px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-us__hello-fresh {
+    margin-right: 10px;
     width: 66px;
     height: 66px;
 }
 
 .about-us__trivago {
+    margin-right: 10px;
     width: 126px;
     height: 38px;
 }
 
 .about-us__la-times {
+   margin-right: 10px;
    width: 271px;
    height: 34px; 
 }
 
 .about-us__oracle {
+    margin-right: 10px;
     width: 162px;
     height: 23px;
 }
 
 .about-us__target {
+    margin-right: 10px;
     width: 52px;
     height: 66px;
 }
