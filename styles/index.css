@@ -565,3 +565,10 @@ textarea:hover {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 340px) {
+    .our-services__img {
+        margin-left: 105px;
+    }
+}
+
